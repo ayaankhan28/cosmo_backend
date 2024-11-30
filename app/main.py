@@ -17,7 +17,3 @@ async def shutdown():
     await disconnect_from_mongo()
 
 app.include_router(students_router, prefix="/students", tags=["Students"])
-
-
-#674b1f897b7d1ed08ac866d0 anuj
-#674b1e827b7d1ed08ac866cf ayaan
